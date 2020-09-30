@@ -1,0 +1,301 @@
+
+/* Basic Font and Background Colors for text */
+.office-docTheme-primary-fontColor { color:#000000; }
+.office-docTheme-primary-bgColor { background-color:#ffffff; }
+.office-docTheme-secondary-fontColor { color: #000000; }
+.office-docTheme-secondary-bgColor { background-color: #ffffff; }
+
+
+/* Accent color definitions for fonts */
+.office-contentAccent1-color { color:#5b9bd5; }
+.office-contentAccent2-color { color:#ed7d31; }
+.office-contentAccent3-color { color:#a5a5a5; }
+.office-contentAccent4-color { color:#ffc000; }
+.office-contentAccent5-color { color:#4472c4; }
+.office-contentAccent6-color { color:#70ad47; }
+
+/* Accent color for backgrounds */
+.office-contentAccent1-bgColor { background-color:#5b9bd5; }
+.office-contentAccent2-bgColor { background-color:#ed7d31; }
+.office-contentAccent3-bgColor { background-color:#a5a5a5; }
+.office-contentAccent4-bgColor { background-color:#ffc000; }
+.office-contentAccent5-bgColor { background-color:#4472c4; }
+.office-contentAccent6-bgColor { background-color:#70ad47; }
+
+/* Accent color for borders */
+.office-contentAccent1-borderColor { border-color:#5b9bd5; }
+.office-contentAccent2-borderColor { border-color:#ed7d31; }
+.office-contentAccent3-borderColor { border-color:#a5a5a5; }
+.office-contentAccent4-borderColor { border-color:#ffc000; }
+.office-contentAccent5-borderColor { border-color:#4472c4; }
+.office-contentAccent6-borderColor { border-color:#70ad47; }
+
+/* links */
+.office-a {color: #0563c1; }
+.office-a:visited { color: #954f72; }
+
+/* Body Fonts */
+.office-bodyFont-latin     { font-family:"Calibri"; }    /* Latin  name of the Font */
+.office-bodyFont-localized { font-family:"Calibri"; }   /* Localized name of the Font. contains the default font name according to the culture currently used in Office */ 
+
+/* Headers Font */
+.office-headerFont-latin     { font-family:"Calibri Light"; }
+.office-headerFont-localized { font-family:"Calibri Light"; }
+
+
+
+/* The following classes define the Office themes. This classes make sense for the taskpane apps */
+
+/* Basic Font and Background Colors for PPT */
+.office-officeTheme-primary-fontColor   { color:#b83b1d; }
+.office-officeTheme-primary-bgColor     { background-color:#dedede; }
+.office-officeTheme-secondary-fontColor { color:#262626; }
+.office-officeTheme-secondary-bgColor   { background-color:#ffffff; }
+
+/* Basic Font and Background Colors for Outlook Web Access */
+/* remove comments and delete other apps officeTheme classes to get OWA defaults
+.office-officeTheme-primary-fontColor   { color:#ea4400; }
+.office-officeTheme-primary-bgColor     { background-color:#ffffff; }
+.office-officeTheme-secondary-fontColor { color:#ffffff; }
+.office-officeTheme-secondary-bgColor   { background-color:#ea4400; }
+*/
+/* Page-specific styling */
+
+#contentBlock, #viewerHost {
+    height: 100%;
+    width: 100%;
+ 
+}
+
+
+/* viewer color.*/
+#component {
+    background: #009999;
+    height: auto;
+    width: auto;
+}
+
+
+#modelViews {
+    display: none;
+}
+
+.siemens-app-container {
+    height: 100%;
+    width: 100%;
+    /* padding: 5px; */
+}
+
+.siemens-inner-app-container {
+    height: 100%;
+    width: 100%;
+}
+
+.siemens-Icon--pan {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAkUlEQVRIS7WU0Q2FIBAEqY46LM2S7OjkEk0E50DM8jHJY253E39eMrOloFSCUglKJSiVoMw5b4WdboRnvUO3l7jGLSoQvU716AVHRN1hYAbaCA9/abek4zfPTX/4j2Ws/4JWtOFZ2q3w8AfaGAa+EnWrkBMFe/Q61ePmKhx0I0r2+3+RGpRKUCpBqQSlEpQ6LJ334TErwy345wAAAABJRU5ErkJggg==');
+}
+
+.siemens-Icon--rotate {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABpUlEQVRIS7WUu3HDMBBEVYJKUAkswRFjlaASXIJLcAkqQSU4VaYSVILHiUN6HwbHwWcJWTN28Ahi73AADgfslmX5V6zomOd5L97FIt7oO78WK7Yo2El8ig/xklv6J+dfYsUgB7uJO//Gho69spVYETToKr7Eq7MH2LPf1dk7IdAAcj3MN3q2J9/WDp0Q5EEHYfNNP+vY8ZNcx4BOCMoB+j8K8k0wAtPSPzr/kk4I3ABppOOb1tjU1BpUHTmRU1a4ueVn9fVHDqyOnF7EtDVgpAsqqjorDKyaWoZDM6Crb3SjcSfw56zi3kzYMJ7FxQwqd1RNXPyTSuz4reeif3aCNqUBYg1QIp3dsYAUIPfxj/pHx97dE2lMco8Jhg+X7JxJlCb+tPRTGrbAlw+OXdk55Bf3Ya3/LeSTdhurY6s8xY92YlPZQhzB2ZxDYJI4fXLncpruhhg+0bLHC0xm9q0xngECsQIOkgFpQrXY7STZjwXCaq+cAjmwWoKRNiYkhQQuqc5BfbLQnU3V+Q0KEmU7rKDAils8Gxys6FBQKuNh7bdY8e9Ydj8vG5GuuH3iBQAAAABJRU5ErkJggg==');
+}
+
+.siemens-Icon--zoom {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKBJREFUSEvtlLENwCAMBDMdc2S0jJSNHF4KkWUOQ5OO4gQc+L/jMLNlSilnxbTSPYGScOGNpRKUERferfTeg9ITw7QnPwJlg0J0zu4jKMVoWC6c05JONOrATUMKA6eSK3rRiRlUkIEyYxdM2QVTdsFHDboq/30V79B/n52gYZ2z+whKTwzRnvwIlBEfFld670FJuNDGNFygHOFKlsLN7HgAtSUxK38xc24AAAAASUVORK5CYII=');
+}
+
+/* .siemens-Icon--snapshot {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('Images/snapshot24.png');
+}
+
+.siemens-Icon--open {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('../Images/open24.png');
+}
+
+.siemens-Icon--settings {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('Images/settings24.png');
+} */
+
+.siemens-Icon--modelViews {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABa0lEQVRIS72Uy3XCMBBFKYESKIESWHlNCZRCKZTAkmVKSAk5rLJM0oDyro9GGUnjYDucLK5H89EbM5bYpJRWMQzDVpzFW7bbqK4LzEFipyz8ktdY/GNbWzkt2iBT+fspMfm+6d7ipSBChTJlfROfYnIcxHOeuhuxrsijIpmftfgSZ4tFkM91cpc3OIipER1znDx1Ci9s4NZTH/nU1hexCCtq19m3efPLuu9CHFsCEVbUrj2P4l3C8+8NRDnfPh7EuC9jvEq0+M1aM+cPcRFl3k0N34U8deNxLmJz0KaduHoBWZnqBcjvbE8nYuTCbiQ5xzl/FRxNRofFP7S1lePJG3mjsAkoxx14x0Z5CIOgTTRA4Ncmj6gchASj4WMpVN6yNCE+B2qhFUeIa88878JvulrtEsaHNpv4OEtZjhpNwr/lJXTihnxGteqtPQgxkosPyg+brqETa/2/Mj6cqN3Gp4hDWbgmTxNPKW2+AfJEtANTGDs9AAAAAElFTkSuQmCC');
+}
+
+.siemens-is-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* .siemens-Icon--onedrive {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    width: 33px;
+    background-image: url('./images/skydriveicon_blue.png');
+} */
+
+siemens-commandBar-Icon {
+    height: 24px;
+    width: 24px;
+}
+
+.siemens-sideCommands, .siemens-commandBarItem-link, .siemens-commandBarItem-linkWrapper, .siemens-commandBarItem {
+    height: 32px;
+}
+
+.siemens-commandBar {
+    height: 32px;
+}
+
+.siemens-commandBarItem {
+    margin-right: 4px;
+}
+
+.siemens-sideCommands {
+    padding-right: 30px;
+}
+
+.ms-CommandBarItem-link:before{
+   content: none !important;
+}
+
+.siemens-commandBarItem-link:before{
+   content: none !important;
+}
+
+.siemens-commandBarItem-link {
+    line-height: 32px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.siemens-commandBar-mainArea {
+    padding-left: 0px;
+    overflow-y: hidden;
+    line-height: 32px;
+}
+
+
+.siemens-spinner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
+}
+
+.siemens-spinner {
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333333;
+}
+
+.siemens-spinner-label {
+    text-align: left;
+    color: #333333;
+}
+
+.siemens-spinner-circle {
+    background-color: #333333;
+}
+
+.siemens-Dropdown {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.siemens-messagebanner {
+    min-width: 239px;
+    margin-top: 10px;
+}
+
+.siemens-hidden {
+    display: none;
+}
+
+.siemens-visible {
+    display: block;
+}
+
+.siemens-settings-pane {
+    overflow-y: visible;
+}
+
+.siemens-setting-commands {
+    margin-top: -40px;
+}
+
+.siemens-commandBar-mainArea-Settings {
+    width: 300px;
+}
+
+.siemens-panel-main {
+    padding-right: 15px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.siemens-viewer-title{
+    text-align: center;
+}
+
+.siemens-viewer-label{
+    text-align: left;
+}
+
+.siemens-callout{
+    top: 0px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+
+.ms-MessageBanner-text {
+    min-width: 159px;
+}
+
+.ms-Panel-main .ms-CommandBar {
+    display: block;
+}
+
+.siemens-commandBarItem-link.is-selected {
+    font-family: 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
+    border-bottom: 2px solid #0078d7;
+  }
+
+.structureLabel.strusel {
+    background-color: lightblue;
+}

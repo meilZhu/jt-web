@@ -30,6 +30,7 @@ import jt-web from '@ithinkdt/jt-web';
 #### js
 ##### 初始化 （渲染配置）
 
+```
 const jt_web = jt_web({
     // 数据
     data: {
@@ -38,3 +39,4 @@ const jt_web = jt_web({
         "units": 5,  
     }
 })
+```
